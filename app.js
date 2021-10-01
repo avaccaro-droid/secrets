@@ -128,6 +128,6 @@ app.post("/submit", function(req, res) {
 	});
 });
 
-app.listen(3001, function() {
-	console.log("Server started on port 3001.");
+app.listen(443, function() {
+	console.log("Server started on port 443.");
 });
